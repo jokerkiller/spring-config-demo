@@ -1,0 +1,11 @@
+server:
+  port: 8071
+spring:
+  profiles:
+    active: dev
+  application:
+    name: user
+  cloud:
+    config:
+      profile: dev
+      uri: http://localhost:8070
